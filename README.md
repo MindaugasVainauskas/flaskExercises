@@ -1,2 +1,3 @@
 "# flaskExercises" 
-"#First commit to flaskExercises"
+
+"First commit to flaskExercises"
