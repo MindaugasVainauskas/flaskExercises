@@ -1,1 +1,2 @@
-"# flaskExercises"  git init git add README.md
+"# flaskExercises" 
+" First commit to flaskExercises and so on"
