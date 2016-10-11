@@ -17,10 +17,18 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <h1>How you doin, {{name}}?</h1>
-      <p>This seems to be working.</p>
-      <p>Click <a href="/">HERE</a></p>
+  <body>     
+      <div class="container">
+          <form class="form-inline" action="/name" method="GET">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+              </div>              
+              <button type="submit" class="btn btn-primary">Send</button>
+        </form>         
+      </div>
+      
+          
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
